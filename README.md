@@ -14,7 +14,4 @@ It removes the need for the legacy exporter, simplifying monitoring and integrat
 - 🔗 Integration with Prometheus scrape endpoint
 - 📈 Visualization using Grafana dashboard
 
-> (Optional: Add architecture diagram here if you have a PNG or draw.io export)
-> ![Architecture Diagram](path/to/architecture-diagram.png)
-
 ## 📇 Project Structure
