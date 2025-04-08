@@ -19,3 +19,20 @@ This project enhances observability in KubeArmor by exposing security policy met
 Start the server:
 ```bash
 go run demo/main.go
+
+# KubeArmor Observability Mock
+
+This project demonstrates a simulated observability stack for KubeArmor.
+
+## Components
+
+- ✅ Go-based Prometheus mock server
+- ✅ Prometheus instance scraping custom metrics
+- ✅ Grafana dashboard visualizing metrics
+
+## Setup
+
+1. Run metrics server
+   ```bash
+   cd demo
+   go run main.go
