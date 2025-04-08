@@ -14,24 +14,7 @@ It removes the need for the legacy exporter, simplifying monitoring and integrat
 - 🔗 Integration with Prometheus scrape endpoint
 - 📈 Visualization using Grafana dashboard
 
-![Architecture Diagram](path/to/architecture-diagram.png)
+> (Optional: Add architecture diagram here if you have a PNG or draw.io export)
+> ![Architecture Diagram](path/to/architecture-diagram.png)
 
 ## 📇 Project Structure
-go run demo/main.go
-
-# KubeArmor Observability Mock
-
-This project demonstrates a simulated observability stack for KubeArmor.
-
-## Components
-
-- ✅ Go-based Prometheus mock server
-- ✅ Prometheus instance scraping custom metrics
-- ✅ Grafana dashboard visualizing metrics
-
-## Setup
-
-1. Run metrics server
-   ```bash
-   cd demo
-   go run main.go
